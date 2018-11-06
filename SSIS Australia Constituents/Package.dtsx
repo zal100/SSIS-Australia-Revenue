@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{C2A76E66-641C-4853-9593-D6D47791663F}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{C54B0842-FD65-4BA0-BD4E-D14A4A35146A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1080,7 +1080,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID Number"
-              DTS:DTSID="{9408D23F-A6A4-44A1-A43D-AA4558E6B906}"
+              DTS:DTSID="{11593981-D097-43B1-8E05-7492D97E30EF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1089,7 +1089,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Name"
-              DTS:DTSID="{0DB0025C-FE74-4475-9134-728466494A3A}"
+              DTS:DTSID="{3A81AC2E-19B6-4293-8B60-4CB4587B4E1F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1098,7 +1098,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First Name"
-              DTS:DTSID="{A75233F9-E95C-4707-A97D-2710151C9323}"
+              DTS:DTSID="{479D6884-17F4-43D6-BA8A-95BF4591F54D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1107,7 +1107,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Middle Name"
-              DTS:DTSID="{82CCAAE9-38B3-4E49-9269-F88ACC5AD171}"
+              DTS:DTSID="{807E5617-F8E5-4D0D-AAFA-2F9598AE1D26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1116,7 +1116,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Personal Title"
-              DTS:DTSID="{4C9902A0-F357-4863-91A6-71402587CD23}"
+              DTS:DTSID="{88511BA9-F44E-4919-80D0-36929884291D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1125,7 +1125,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Number"
-              DTS:DTSID="{AFD7FD89-8421-4037-B29C-370F3C6598C0}"
+              DTS:DTSID="{E5CC18D5-C4AF-4408-B573-33960846B3CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1134,7 +1134,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Type"
-              DTS:DTSID="{0D880BDD-5418-433E-B42D-B0BDB855CFE4}"
+              DTS:DTSID="{FF1F58E1-8306-4BC8-B74E-A97AB59522FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1143,7 +1143,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Home Street"
-              DTS:DTSID="{DE3EB628-9576-493D-AA29-B5F2AF072903}"
+              DTS:DTSID="{A9553F80-CB9D-411F-889F-B4B8B5B8284C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1152,7 +1152,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Home State"
-              DTS:DTSID="{380465B7-D89D-497A-B474-5173526D1184}"
+              DTS:DTSID="{C52CB2BE-7D54-4B4C-919E-A19FE543C475}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1161,7 +1161,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Home City"
-              DTS:DTSID="{26D438EA-0CBF-4D04-ADD3-C062EE4DB589}"
+              DTS:DTSID="{76607B0F-D9B5-4DA8-8E03-B2DA466AAA01}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1170,7 +1170,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Home Zip Code"
-              DTS:DTSID="{29E71CBD-6739-41FA-8D42-ABD04A131A88}"
+              DTS:DTSID="{81A92337-607D-4FB0-8B0F-0A7801075B2F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1179,7 +1179,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Address Line 2"
-              DTS:DTSID="{EB48D95F-27B4-40F0-9D17-5B623ADE0DA1}"
+              DTS:DTSID="{7064C8A6-F2FA-4D24-9612-91B60AD74FC9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1188,7 +1188,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Code"
-              DTS:DTSID="{A261DE92-3C94-4453-8423-92EA76D39A45}"
+              DTS:DTSID="{76C72F36-C072-4A80-86F8-071B462FFF38}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1197,7 +1197,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Gender"
-              DTS:DTSID="{2651F6E6-4A50-411A-8CEA-19E5D63F98E3}"
+              DTS:DTSID="{F23B0B71-BAAA-4620-A059-8AAD95E7AE50}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1206,7 +1206,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Marital Status"
-              DTS:DTSID="{2D71356E-4F0C-4111-9D30-915EF1BA07BC}"
+              DTS:DTSID="{8C9B3AC9-9724-4704-A44F-941AA166F6F3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1215,7 +1215,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Birthdate"
-              DTS:DTSID="{C96150B3-6B26-44DE-941E-21F0CFB4F57D}"
+              DTS:DTSID="{27F62F24-3F84-49FC-9748-2412949CC4AE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1224,7 +1224,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Flag"
-              DTS:DTSID="{D96CA893-4EB2-4C15-822D-F34573ED56FB}"
+              DTS:DTSID="{302DB778-AEF7-4381-AC99-F1D17590779E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1233,7 +1233,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Distinctives List"
-              DTS:DTSID="{D78CBBEB-9AF8-4011-BDA0-AA495DFE0C01}"
+              DTS:DTSID="{6115B2E6-C85E-49B2-82C3-9B8F703E0D72}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1242,7 +1242,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Mailer Distinctive Codes"
-              DTS:DTSID="{E95656CC-8305-4384-90BF-BEB684917A21}"
+              DTS:DTSID="{75929B69-C35C-4A33-BC1E-0D8CE399E820}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1251,7 +1251,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Mailer Distinctive"
-              DTS:DTSID="{D900D1A9-90EF-4D6F-B5A6-63B72EED86DE}"
+              DTS:DTSID="{7C86402C-0047-4090-B135-FF91B413BD70}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1260,7 +1260,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Active Trigger"
-              DTS:DTSID="{F0112330-BFB3-4B0F-AFC4-213372019BD8}"
+              DTS:DTSID="{BCB842F1-B639-426D-A49F-C042A67EAE2A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1269,16 +1269,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approximate Age"
-              DTS:DTSID="{3EE9A838-5F7B-4E7E-AFF7-60836E34795A}"
+              DTS:DTSID="{36277414-E98A-43A7-8148-7CABBE5706E3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="500"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BirddogInformation"
-              DTS:DTSID="{5E4D9781-3E15-4951-BB35-ACFB2C834374}"
+              DTS:DTSID="{2D038E66-CAB8-4F24-A8F9-B389DCF89BBF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1287,7 +1287,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BSB #"
-              DTS:DTSID="{E9DC5C9A-3DB9-4CF9-BFDF-ED91BB60C458}"
+              DTS:DTSID="{1C83423D-2EF3-4443-9A49-AAB8C13AED67}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1296,7 +1296,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Buffer"
-              DTS:DTSID="{194B9BFC-AD7C-4D1A-92FA-B0C2A69EE16E}"
+              DTS:DTSID="{5A884BD1-9F7B-4452-87FD-552C3C3430DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1305,7 +1305,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Church"
-              DTS:DTSID="{15006096-BA06-4D6B-A9C7-BF3EB17D1B9C}"
+              DTS:DTSID="{30C67459-D152-4C9F-9D86-F94F69C7212B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1314,7 +1314,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Contact ID"
-              DTS:DTSID="{20C03A16-ACEC-4679-A24F-149A5BCA1BE5}"
+              DTS:DTSID="{7C440A4F-6DDD-4642-B7D2-92672D4DA60F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1323,7 +1323,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{9B0E2C59-3C03-49D7-A35A-2B9F04726865}"
+              DTS:DTSID="{3F11A32C-E9A5-417D-A8B1-0D0EB95F61C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1332,7 +1332,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Created"
-              DTS:DTSID="{F4A4441F-0103-424F-9A5C-1F54A9A195E8}"
+              DTS:DTSID="{A6922870-039F-436E-BA23-3FB33F6D294A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1341,7 +1341,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Directions"
-              DTS:DTSID="{EC8D03DB-292D-4F3A-9508-35464C11267A}"
+              DTS:DTSID="{29BC0C95-61D4-461A-B46C-D36C3DCF8C04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1350,7 +1350,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email"
-              DTS:DTSID="{161FEFB2-334E-4E0E-A3E3-321E3EC22CB4}"
+              DTS:DTSID="{B50F02D9-A170-4586-BC90-5CC781F8009E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1359,7 +1359,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Events Attended"
-              DTS:DTSID="{26E6EDA6-2FC8-471C-B6A6-AA777B2C62A7}"
+              DTS:DTSID="{D2C7B098-4778-4A90-8056-9188CCDD940B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1368,7 +1368,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Field 128"
-              DTS:DTSID="{BE10303E-FFC3-4F53-BD8C-259F6869EE4C}"
+              DTS:DTSID="{CE22FD8D-6FA3-49D3-967F-8071F96B0011}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1377,7 +1377,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First Contact Date"
-              DTS:DTSID="{B60B4B07-FCA8-46C3-84F5-B18C9203E25E}"
+              DTS:DTSID="{2089E729-6A11-453F-B2FD-56255A40DB51}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1386,7 +1386,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Frequency"
-              DTS:DTSID="{368DD337-270D-4449-865D-CB29426D319C}"
+              DTS:DTSID="{7B8FC9DE-74E7-4D5E-B4FB-C718469CEB24}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1395,7 +1395,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Gift Code"
-              DTS:DTSID="{5F1E15A1-89A1-45A9-BA8E-019F5C699D6C}"
+              DTS:DTSID="{023F5891-0CBD-47CD-B21C-6F4011401B06}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1404,7 +1404,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Receipt Date"
-              DTS:DTSID="{EB24DE64-53F1-492A-9CBA-B65A6AEB118E}"
+              DTS:DTSID="{AEA2F1E8-743F-46C1-8167-7611C4A291DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1413,7 +1413,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Missionary Code"
-              DTS:DTSID="{5B852B09-ECEB-4481-8E50-ADBC8CD67DEC}"
+              DTS:DTSID="{E3E03BEF-F246-4CED-886C-1EA18815CB20}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1422,7 +1422,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Next Contact Date"
-              DTS:DTSID="{01B0037A-CE8E-424C-B6EC-0B5E1ED38075}"
+              DTS:DTSID="{6516B5C7-971D-4409-A80C-EBA7FADA325C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1431,7 +1431,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="No Receipt"
-              DTS:DTSID="{01E14586-9953-44C4-95D2-0DF226889553}"
+              DTS:DTSID="{83609B2C-245E-4019-B5CE-96CA0F4A9A67}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1440,16 +1440,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Notes"
-              DTS:DTSID="{3BFAE6A2-B617-4548-A9D7-D612639CF9B7}"
+              DTS:DTSID="{2ADD862A-EFB6-4D8D-B5D3-F010AB097F86}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="500"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Occupation"
-              DTS:DTSID="{D0F31691-A940-4C46-AE3F-3107AC10450E}"
+              DTS:DTSID="{325F79D6-7B62-49C8-A116-2FEE5A6A4001}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1458,7 +1458,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Pledge"
-              DTS:DTSID="{0C9A4EB1-5B71-4E16-A48E-D77E95A2B16A}"
+              DTS:DTSID="{3DE23351-91FC-4ED1-8C6A-9FA0007E7CE9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1467,7 +1467,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Recpt Letter Sent"
-              DTS:DTSID="{FD78BDBC-A25A-44AF-A493-27C1EBE11C31}"
+              DTS:DTSID="{F7F1B03B-7BF3-41B5-B3C9-D159BFF57494}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1476,16 +1476,16 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sale Amount"
-              DTS:DTSID="{8AE35B63-118F-45BF-902A-FACC7A44628E}"
+              DTS:DTSID="{62C996E9-E12D-4B0E-A4CD-E5E8BAAE1C3B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="50"
+              DTS:MaximumWidth="500"
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Salutation"
-              DTS:DTSID="{1DFB2E6D-3A6C-481E-9550-01B55A660ADE}"
+              DTS:DTSID="{AA8622E1-09D1-4824-BA92-FD7F311D17E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1494,7 +1494,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="School"
-              DTS:DTSID="{5EA7BBB5-26B3-4D30-AA10-8FE02FD7DB6A}"
+              DTS:DTSID="{1FAA75F4-D14E-49FF-AECE-DEF74545C79B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1503,7 +1503,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sent to HQ"
-              DTS:DTSID="{E0BBF8AF-38BE-48F9-B036-F80E30618F12}"
+              DTS:DTSID="{987D9D7E-457C-4C5B-A4B9-A3B09430CA25}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1512,7 +1512,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Source Code"
-              DTS:DTSID="{FDBE59A0-2007-44F3-872C-B1163A25792A}"
+              DTS:DTSID="{7459175D-1BCC-4CB3-A346-ACF0002BDD9A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1521,7 +1521,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sum of Personal Gifts"
-              DTS:DTSID="{E73D6BC2-17DC-4E96-9129-2280E9281ECF}"
+              DTS:DTSID="{DC417634-D551-46A4-95F6-455B18824729}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1530,7 +1530,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Year Believed"
-              DTS:DTSID="{0588AC02-DEB0-4A5F-98B4-45E1BAF36022}"
+              DTS:DTSID="{E887F6D3-3F18-48B1-9956-8684BB141B3D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1807,6 +1807,31 @@
                           name="FriendlyExpression">Gender == "male" ? "Male" : Gender == "female" ? "Female " : "UNKNOWN"</property>
                       </properties>
                     </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[Marital Status]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Marital Status"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]} == "married" ? "Married" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]} == "single" ? "Single" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]} == "divorced" ? "Divorced" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]} == "widowed" ? "Widowed" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]} == "seperated" ? "Seperated" : "Unknown"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[Marital Status] == "married" ? "Married" : [Marital Status] == "single" ? "Single" : [Marital Status] == "divorced" ? "Divorced" : [Marital Status] == "widowed" ? "Widowed" : [Marital Status] == "seperated" ? "Seperated" : "Unknown"</property>
+                      </properties>
+                    </inputColumn>
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2024,6 +2049,29 @@
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">Gender</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[AUSNL - Marital Status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[AUSNL - Marital Status]"
+                      name="AUSNL - Marital Status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Marital Status]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[Marital Status]</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
