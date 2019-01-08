@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="152"
-  DTS:VersionGUID="{A29C4102-7FB1-4776-9ED9-B1105CA95B9B}">
+  DTS:VersionBuild="166"
+  DTS:VersionGUID="{2FA011BB-4F61-4B77-B68F-CA14A48EA408}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -520,7 +520,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="ID Number"
-              DTS:DTSID="{001496D0-BF61-4938-8F07-E005487185DB}"
+              DTS:DTSID="{F427C410-BB4A-4BF0-8B32-235182920DA0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -529,7 +529,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last/org/group/household name"
-              DTS:DTSID="{B16D5ABB-5727-4F2B-84E8-8ABAE5D28543}"
+              DTS:DTSID="{8A5D70A9-C19A-4CE0-AEC1-A2745B2A8AA0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -538,7 +538,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First name"
-              DTS:DTSID="{A916AB70-421B-42FE-B4FF-D0FC7AE2A9EF}"
+              DTS:DTSID="{1FA185A0-56C5-4F53-93D9-98D55C79BB43}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -547,7 +547,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Middle name"
-              DTS:DTSID="{AA656C29-6C1A-45D2-9810-8DAEB17BE3F8}"
+              DTS:DTSID="{6D4D0D09-2FDA-431A-A065-4B6F3BA75373}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -556,7 +556,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Title"
-              DTS:DTSID="{49CCA86F-9F9C-4FB7-9783-69109BBF9F04}"
+              DTS:DTSID="{44EF5AC4-8AC9-4514-83AE-1BE17A05FD26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -565,7 +565,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Number"
-              DTS:DTSID="{97C2C04A-0ACA-4928-AE5C-3F0089DF2439}"
+              DTS:DTSID="{FD1AFB81-44B8-4D0A-A7E1-3579698423A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -574,7 +574,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Type"
-              DTS:DTSID="{EC009F67-4794-491D-A81C-AB5E2D2F5467}"
+              DTS:DTSID="{EFE743E4-8696-4CC0-ADE4-8909CA8EE415}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -583,7 +583,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Address"
-              DTS:DTSID="{00F48C01-A362-4A58-9A0C-62F1F6D5C7C6}"
+              DTS:DTSID="{55BD18BA-5C5C-41C9-BDEC-F91757991587}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -592,7 +592,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="State"
-              DTS:DTSID="{2038BC3E-A374-48DD-8F4A-C12C1DEE80A6}"
+              DTS:DTSID="{2D83C0D9-A957-491E-B0D4-CC28D4F43EFF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -601,7 +601,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="City"
-              DTS:DTSID="{78DCF236-B316-480B-BBF6-2A422DB032D4}"
+              DTS:DTSID="{316C10E6-6CB5-4CFA-8D20-A35EA0E250F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -610,7 +610,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Zip"
-              DTS:DTSID="{3F8C16F4-DBC3-42A7-AD39-274C7F574D5D}"
+              DTS:DTSID="{AF911434-2EDD-429E-A0C1-72FBD3CB2557}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -619,7 +619,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Address Line 2"
-              DTS:DTSID="{9F822442-93C9-4230-A6FF-8090E0B65721}"
+              DTS:DTSID="{D6DE2930-DEC6-41E9-A496-8DF3C5F46922}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -628,7 +628,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Code"
-              DTS:DTSID="{24DDAAEA-D966-4376-9879-05D8D1BE65E2}"
+              DTS:DTSID="{734BA410-A78E-40A9-8476-B6513B91F157}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -637,7 +637,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Gender"
-              DTS:DTSID="{40E5C91D-18A9-44AD-8C3C-5C2C8B1DCC6B}"
+              DTS:DTSID="{DF973208-25E6-4E49-ACBD-1FA077DE9230}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -646,7 +646,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Marital Status"
-              DTS:DTSID="{B1BFC278-869B-441C-9E01-B1130EFC876D}"
+              DTS:DTSID="{E1437EF4-BA40-4DD3-9637-EC4186235E41}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -655,7 +655,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Birthdate"
-              DTS:DTSID="{7C81123A-D3B1-4050-A81A-B7209C8546B9}"
+              DTS:DTSID="{25620364-B02F-4A2D-92FF-C761FA88FCD4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -664,7 +664,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Flag"
-              DTS:DTSID="{D4708327-89B6-4135-8AC5-C04B3C377EAF}"
+              DTS:DTSID="{0660285A-67CA-4FEF-B8C3-87EA517AC4EE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -673,7 +673,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Distinctives List"
-              DTS:DTSID="{C1688B07-8ECD-41E3-87EB-24A1873BDBEF}"
+              DTS:DTSID="{BBA377FC-9102-4C61-B81C-66CE8B390847}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -682,7 +682,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Mailer Distinctive Codes"
-              DTS:DTSID="{EED5237C-A19B-48D6-AC0F-232B005C6925}"
+              DTS:DTSID="{19446C1F-FD8F-4B8E-BEF1-26F81C053CF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -691,7 +691,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Mailer Distinctive"
-              DTS:DTSID="{3338CFAD-B2AB-4581-B2EB-A80868F0E76F}"
+              DTS:DTSID="{0A05C3DB-BD56-4B16-974B-BD6ACD4DF224}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -700,7 +700,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Active Trigger"
-              DTS:DTSID="{45E8B47F-84D5-426D-8CAF-973F4C431113}"
+              DTS:DTSID="{83D7D4D7-E26B-4760-AE4C-BAD294D96442}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -709,7 +709,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Approximate Age"
-              DTS:DTSID="{98154F30-73E8-4231-BC12-24E67678ECEB}"
+              DTS:DTSID="{35D0806B-B161-46D4-9B38-1E56C3EE01E3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -718,7 +718,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BirddogInformation"
-              DTS:DTSID="{C5BB0416-9330-49C3-8DAF-A53FFE12535E}"
+              DTS:DTSID="{3B208B2E-E61F-4088-878D-F1C7765A68E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -727,7 +727,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="BSB #"
-              DTS:DTSID="{F190877C-79CB-4F60-925A-767B8AD98086}"
+              DTS:DTSID="{ACD00E1B-96B9-48D8-9260-1247E7EEED6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -736,7 +736,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Buffer"
-              DTS:DTSID="{385731CA-1A17-4D95-BFAA-999389748710}"
+              DTS:DTSID="{F2936170-6B6C-41C4-AD0B-8F1CA9126B8B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -745,7 +745,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Church"
-              DTS:DTSID="{0EE34061-98FD-4B6A-B2BD-80AB5AA74C66}"
+              DTS:DTSID="{937B6AAF-CC73-41FF-9929-19CC806A50A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -754,7 +754,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Contact ID"
-              DTS:DTSID="{6028CAF2-F90A-47AD-9B8D-3478D80ADB25}"
+              DTS:DTSID="{BF81898D-BF73-48E4-8F42-A6913078C502}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -763,7 +763,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{98A69741-8ACC-4D4D-B58A-935A4CFF209D}"
+              DTS:DTSID="{B1780F79-6C6B-4258-8CA0-709748E56A24}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -772,7 +772,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Created"
-              DTS:DTSID="{A84FD201-6296-45AC-99FC-B6ADD6F3E54A}"
+              DTS:DTSID="{166B6758-023A-41D7-A0CC-B9D2904D05A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -781,7 +781,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Directions"
-              DTS:DTSID="{99052C2B-BD90-463E-8127-25B435D64184}"
+              DTS:DTSID="{BA7A196D-C01B-4745-9BB5-AC2598801D0C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -790,7 +790,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Email address"
-              DTS:DTSID="{E4875B6B-86A2-4979-AA07-9C9586FA4E88}"
+              DTS:DTSID="{A0D85323-8A99-470E-A956-26C35AB199BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -799,7 +799,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Events Attended"
-              DTS:DTSID="{BC96FEB7-2C4B-4066-A6DC-71F900C25905}"
+              DTS:DTSID="{8A6B0C10-C030-4EB2-B851-972C2FCDD27C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -808,7 +808,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Field 128"
-              DTS:DTSID="{D48D3CF0-9F76-4128-8437-CABF96E51B24}"
+              DTS:DTSID="{D5DAFE06-C98A-4BC0-B236-EBB59DADFFE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -817,7 +817,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="First Contact Date"
-              DTS:DTSID="{0678CCDF-B68E-49F6-85B5-6EA70BFFD859}"
+              DTS:DTSID="{B9263682-17DE-4C33-9147-5ED9CA9D4CBC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -826,7 +826,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Frequency"
-              DTS:DTSID="{21C12A88-2DF2-4986-82CE-8524E98B41D3}"
+              DTS:DTSID="{9337ABCD-8AA0-4ABE-B485-4A4516CC029D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -835,7 +835,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Gift Code"
-              DTS:DTSID="{9FF7F3D8-A1AB-45EB-B2BE-7BA40B6DD1E0}"
+              DTS:DTSID="{1977FBF4-1FDD-43B9-B8EB-38AB280DE433}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -844,7 +844,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Receipt Date"
-              DTS:DTSID="{733CEF8F-1336-43DA-9026-7836CD66A8EB}"
+              DTS:DTSID="{C9F1B44A-FA53-470F-95CD-EE4001433B08}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -853,7 +853,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Missionary Code"
-              DTS:DTSID="{75B78C75-8D39-44EE-8395-1372CBEB1179}"
+              DTS:DTSID="{19CD1A46-9BC7-4994-8889-6B0ADEF5297B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -862,7 +862,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Next Contact Date"
-              DTS:DTSID="{1E039FB3-A2E0-496E-8A2E-57ED1CFCEEEA}"
+              DTS:DTSID="{CAF74F3C-CB85-47C2-B016-A83271728030}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -871,7 +871,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="No Receipt"
-              DTS:DTSID="{AD78DF4C-EF04-46FD-BE56-CF8EBE8AB5BB}"
+              DTS:DTSID="{BB969807-CBE6-4910-8C14-E37160206E6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -880,7 +880,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Notes"
-              DTS:DTSID="{F80A7B62-8030-495A-8CA8-619642BD7BFD}"
+              DTS:DTSID="{D225381B-9BEE-4C2E-8606-ADBB429EA259}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -889,7 +889,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Occupation"
-              DTS:DTSID="{6CB56431-F191-4EBA-98C5-4471B87DFDA5}"
+              DTS:DTSID="{21796A6B-6F33-443C-88F5-F604B9EFB808}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -898,7 +898,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Pledge"
-              DTS:DTSID="{C885CA4F-F9CD-41FB-A2D2-EAAD9D402CAB}"
+              DTS:DTSID="{CAE5A23F-8E17-4957-B9E0-D595BF420C36}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -907,7 +907,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Recpt Letter Sent"
-              DTS:DTSID="{98828C08-8ECE-4D08-91DC-2E7A15B074CF}"
+              DTS:DTSID="{A7F7C7A9-5008-47CB-B1DE-8D12AC286F2E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -916,7 +916,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sale Amount"
-              DTS:DTSID="{4EDC9914-A420-4E2A-857D-CF173B838C2D}"
+              DTS:DTSID="{ABB955C6-6BFB-45A4-82ED-71F591FA49BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -925,7 +925,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Custom Salutation"
-              DTS:DTSID="{76897903-AADC-44A5-8B61-7BEAFFEFF882}"
+              DTS:DTSID="{36C4F291-26D3-4BFD-A030-A13BEC6DEE55}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -934,7 +934,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="School"
-              DTS:DTSID="{94AA7D45-9AC3-444D-B30F-D51FF8FED60C}"
+              DTS:DTSID="{1131DA16-93C7-4729-983E-BB765ED72298}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -943,7 +943,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sent to HQ"
-              DTS:DTSID="{8EEE8E7B-4B93-4872-8474-05B7F885DB29}"
+              DTS:DTSID="{B14DCEBA-BCAF-4DBA-A16A-C345D8BEADFA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -952,7 +952,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Source Code"
-              DTS:DTSID="{9FDD9ACB-9C17-458F-8593-5DC6245600E5}"
+              DTS:DTSID="{84E57071-867F-43E2-A740-4C1787650D77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -961,7 +961,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Sum of Personal Gifts"
-              DTS:DTSID="{151A4EB5-6AE5-4605-BC26-3D3E18ED16C6}"
+              DTS:DTSID="{E3CC0CFE-07B4-46BE-A69E-E116721FDDC8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -970,7 +970,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Year Believed"
-              DTS:DTSID="{FB3D0ECA-F212-44A2-B2DA-8271D7F213F0}"
+              DTS:DTSID="{8CB5EE22-3DD0-4CA8-B17F-51D808632873}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -979,7 +979,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Type 1"
-              DTS:DTSID="{16572D1B-51B0-40D3-8AAB-526EDDAA0255}"
+              DTS:DTSID="{84849C0F-0850-4DDE-BD17-E3A1E0D57DD6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -988,7 +988,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Lookup ID 1"
-              DTS:DTSID="{1C7C2F6B-CE33-4393-AC7C-AB4A114C4829}"
+              DTS:DTSID="{8D0F7B26-5D61-46F7-B39F-CD1C6364C1D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -997,7 +997,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - ID Number"
-              DTS:DTSID="{1B40AC22-FB42-4633-9BE1-2F4A1AEB15FD}"
+              DTS:DTSID="{FF4421A0-27BE-4F7E-9216-C9AB11D99124}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1006,7 +1006,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Constituent type"
-              DTS:DTSID="{DDCE4B62-332E-466E-8696-A5BDE5363FC5}"
+              DTS:DTSID="{89A26C45-7EEC-401B-A9F2-A13A4C826E38}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1015,7 +1015,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Primary language"
-              DTS:DTSID="{608A23D2-C96E-47A6-AAC4-535A0B42593E}"
+              DTS:DTSID="{4ADEE9C3-5EB6-4E67-B865-ED39370BE03A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1024,7 +1024,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - First Name"
-              DTS:DTSID="{4E3E2580-F439-4A12-8F65-45684AE2D5A1}"
+              DTS:DTSID="{18E14F0C-7654-4894-A38F-AF0205E749F5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1033,7 +1033,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Last Name"
-              DTS:DTSID="{824C8978-E2EC-4034-8053-36D02DEA901D}"
+              DTS:DTSID="{737DF86F-B191-4E5A-905F-15845DA6DF26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1042,7 +1042,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Gender"
-              DTS:DTSID="{7142F0C1-AC49-4CCC-B03C-609B2161EE14}"
+              DTS:DTSID="{83ED6690-4435-4A19-B8E1-F429A5E260D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1051,7 +1051,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Marital Status"
-              DTS:DTSID="{935E8465-7A3A-4920-BB7C-582A9A8DDC51}"
+              DTS:DTSID="{70E10472-4836-4D2B-B920-5B7897A33B54}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1060,7 +1060,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Birthdate"
-              DTS:DTSID="{E06B8A05-E09B-461B-B6C8-80F48970C235}"
+              DTS:DTSID="{9E40ED28-6C32-4F50-9701-70D342993A77}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1069,7 +1069,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Flag"
-              DTS:DTSID="{2F717B72-4299-445E-9DB0-B63F0DAD7B6F}"
+              DTS:DTSID="{E39DF116-963C-4687-9AEE-A4E25546E88D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1078,7 +1078,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Distinctives List"
-              DTS:DTSID="{0F5CC4FB-D038-400C-8244-E6D9BE61AAAE}"
+              DTS:DTSID="{C7AE4707-83DC-4F6A-A502-960D4CECC987}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1087,7 +1087,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Mailer Distinctive"
-              DTS:DTSID="{F735E4C9-16F3-4D07-9D8D-4E0685815A94}"
+              DTS:DTSID="{EA0A6BB0-4CCC-4508-9CC9-64A36852B45B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1096,7 +1096,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Mailer Distinctive Codes"
-              DTS:DTSID="{A7ADB3E6-C25B-4EE3-9BAC-2FDE58053EFB}"
+              DTS:DTSID="{F88221D0-7536-4836-BA61-B68A9AE47885}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1105,7 +1105,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Address Type"
-              DTS:DTSID="{EFBC7FB9-F631-405A-AFA2-818328EC47EC}"
+              DTS:DTSID="{E770FECA-CC0A-41FA-B899-F0FB9FB24AF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1114,7 +1114,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Home Street"
-              DTS:DTSID="{B0393D28-F435-4EEA-91AA-E5225C4B3032}"
+              DTS:DTSID="{C1652E0A-C9F0-40EC-B5CF-AF564546E722}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1123,7 +1123,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Home City"
-              DTS:DTSID="{E874875C-B70C-42DE-A2D5-E945AA6B0574}"
+              DTS:DTSID="{C52848C0-E748-4B47-A1FF-C24BA3642F85}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1132,7 +1132,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Home State"
-              DTS:DTSID="{D1FB3189-D643-4A54-BCA5-149D55EC196B}"
+              DTS:DTSID="{309DF458-E289-4DB0-858A-28AF53F95AE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1141,7 +1141,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Home ZIP Code"
-              DTS:DTSID="{F1F03B09-50BA-40F7-ADC5-900A43EEFAF8}"
+              DTS:DTSID="{8BA71758-4B1E-4538-97DE-06DBCFFEB692}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1150,7 +1150,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Phone Type"
-              DTS:DTSID="{3E887D6E-E22A-43AD-BEBD-3747BB2B0FB5}"
+              DTS:DTSID="{16AA9BF5-25D0-45EF-AAA0-CF10A439C9E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1159,7 +1159,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Type 1"
-              DTS:DTSID="{B5E96E65-581E-42D2-89F9-4D6369E536C6}"
+              DTS:DTSID="{D71A12C9-3676-4B7D-B334-20A58C8ABF11}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1168,7 +1168,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Number 1"
-              DTS:DTSID="{0112DFA4-A31A-489F-898B-8E919F66D7D2}"
+              DTS:DTSID="{58E00E9A-A66A-4313-8A80-CD3530405C9F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1177,7 +1177,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Type 2"
-              DTS:DTSID="{5EDD7EE6-2B5A-4C43-AE0E-FBB1EF2F0BD1}"
+              DTS:DTSID="{DFBDEBED-FAF3-4612-A858-63F29EE51C67}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1186,7 +1186,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Number 2"
-              DTS:DTSID="{20E89A2A-6630-4310-8DD6-BCFC552E48B4}"
+              DTS:DTSID="{8E578D7D-2188-4800-8EA4-75E2A5382BBE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1195,7 +1195,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Country 1"
-              DTS:DTSID="{3AC081E1-9989-49FC-9444-CED1D5236DFB}"
+              DTS:DTSID="{4DBD840D-3D93-4A3B-AF9F-DAFDE59414BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1204,7 +1204,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Country 2"
-              DTS:DTSID="{CBD1DC65-365E-4398-A772-E93437C60ED0}"
+              DTS:DTSID="{61F69A0B-B78D-4B70-A7DA-66C485AA94E8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1213,7 +1213,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Primary 1"
-              DTS:DTSID="{A6D8CB3A-0AF1-40BE-9F02-99356BD28DBB}"
+              DTS:DTSID="{91A5B066-84AC-47ED-BAE5-34D053A17581}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1221,7 +1221,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Primary 2"
-              DTS:DTSID="{B1F6B17D-3936-426E-8215-587957365208}"
+              DTS:DTSID="{F28D0A12-0370-442D-9DF7-1C679873095C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1230,7 +1230,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Type 3"
-              DTS:DTSID="{CAECAF29-0277-414B-BF26-5FC08E408DA2}"
+              DTS:DTSID="{C5D81867-6886-4C14-BAD9-CDD8B8A7AC2D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1238,7 +1238,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Primary 3"
-              DTS:DTSID="{12383AF4-1983-49D5-9071-B95C726EF585}"
+              DTS:DTSID="{6448C7A0-88B4-470D-B69D-A205511214A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1247,7 +1247,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Phone Number"
-              DTS:DTSID="{D4A1E966-5D68-4980-864C-19970881E1CF}"
+              DTS:DTSID="{01394373-26A0-427E-BBC9-443F6A391D19}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1256,7 +1256,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Number 3"
-              DTS:DTSID="{8518A6A3-DFE8-4315-A1FA-FAEF997FD521}"
+              DTS:DTSID="{098DA1C6-8CF7-4C64-A08E-55F161E2FAA8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1265,7 +1265,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Phone Country 3"
-              DTS:DTSID="{E7B70A83-8E96-4A94-83C2-80024FE090A1}"
+              DTS:DTSID="{006C405A-69C7-49B7-9AD6-50D9FF97090E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1274,7 +1274,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Email"
-              DTS:DTSID="{82221DDF-EB95-4B6B-8FDC-22E1D0FEE496}"
+              DTS:DTSID="{00122677-1B3D-46B8-B525-E32CAAD0C36A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1283,7 +1283,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Email Type"
-              DTS:DTSID="{76CBE2B6-CE44-4C05-ACEA-675EFED9C04F}"
+              DTS:DTSID="{87435697-5D0B-4DF2-87CD-6C39EF2ED7E6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1292,7 +1292,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Creation Date"
-              DTS:DTSID="{74CACCC7-377A-4F26-9585-A870006BD6DE}"
+              DTS:DTSID="{6EF20A4C-DD84-4BBB-86F6-67D210056124}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1301,7 +1301,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Constituent Date Added"
-              DTS:DTSID="{97A972BF-2E9B-4832-B5BD-C51268BA36CA}"
+              DTS:DTSID="{72AFF715-86D5-4CA6-8A6D-113DC81191B9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1310,7 +1310,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Contact Code"
-              DTS:DTSID="{1D790809-C90C-4893-82F1-342E4A73CD7C}"
+              DTS:DTSID="{02604DC5-40C7-41B8-802D-0B82006ED08D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1319,7 +1319,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Decision Date"
-              DTS:DTSID="{B60542EB-1944-4F0B-863F-304A837412D7}"
+              DTS:DTSID="{9F876ED0-EA05-4CA4-8072-6E961E1C2580}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1328,7 +1328,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Code"
-              DTS:DTSID="{06BBDA1C-1F0D-41A8-B16D-39B85F013ED4}"
+              DTS:DTSID="{5F4EA818-0A10-44AE-8E9B-AD461C330CC7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1337,7 +1337,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Source Code"
-              DTS:DTSID="{CB3C6C68-1BB2-400B-A4E6-4F736E4574C9}"
+              DTS:DTSID="{3C109663-4484-44A0-AE7B-B177471BC709}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1346,7 +1346,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Salutation"
-              DTS:DTSID="{3F2FC349-5A55-45AA-A244-DD9059E54CB4}"
+              DTS:DTSID="{8C881FAF-2366-4A4A-8D76-D0619B14889F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1355,7 +1355,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - MC"
-              DTS:DTSID="{9845D765-827A-4EE6-A5BA-0CDE09A0F236}"
+              DTS:DTSID="{8A6884C5-1ABF-4BBF-BBE4-13E7676AC0A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1364,7 +1364,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Appeal (contact source)"
-              DTS:DTSID="{90B96315-5C25-42AD-9FB6-F927E906F4D7}"
+              DTS:DTSID="{83DF7DDB-090D-431D-9411-27AC017E8EE6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1373,7 +1373,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSNL - Notes"
-              DTS:DTSID="{AEAC9498-53E7-415C-8AD4-6EC11DF50BF6}"
+              DTS:DTSID="{38929AC4-3EC6-4B2D-B0BD-FCA03AB870BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1382,7 +1382,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Comment 1"
-              DTS:DTSID="{056E9660-E722-4BCF-8BD4-72E7455BF189}"
+              DTS:DTSID="{AD9C63B7-52C3-436D-9256-01B97F94C927}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1391,7 +1391,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Expected date 1"
-              DTS:DTSID="{0140AACC-8573-42A7-AE79-B8DEAC4F3143}"
+              DTS:DTSID="{034BCDB0-0D63-4C22-9ABF-1E180ED56FD7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1400,7 +1400,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Actual date 1"
-              DTS:DTSID="{E5512234-6A25-4FF1-9372-80A5FCDC5AAB}"
+              DTS:DTSID="{B3FAC2E8-80B7-4236-8A3A-D2DF9DADAEF5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1409,7 +1409,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Status 1"
-              DTS:DTSID="{54459BE8-E851-4C6D-9AF7-5AB53AC7BBE7}"
+              DTS:DTSID="{0F36E4FC-D6DB-4200-998C-693802A0D19B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1418,7 +1418,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Summary 1"
-              DTS:DTSID="{AFAEB572-5FF9-4DC6-BE2B-9F0C8312CEE3}"
+              DTS:DTSID="{1BC6FEAD-90A5-43F8-9332-5145A02CEEE4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1427,7 +1427,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Category 1"
-              DTS:DTSID="{0CE85336-95C1-4F37-B683-62AF7D8BF07A}"
+              DTS:DTSID="{40D36899-8778-4399-9913-4EE9425E9B60}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1436,7 +1436,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Subcategory 1"
-              DTS:DTSID="{2FCCF7E9-7E83-4F8E-9AAF-18368B6FAADE}"
+              DTS:DTSID="{A341F607-AE1C-499A-B3D8-AC586511101B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1445,7 +1445,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Contact Method 1"
-              DTS:DTSID="{363C90CE-0D77-4E8E-9844-837D7DEDFD0E}"
+              DTS:DTSID="{C8BF1211-C392-46B5-A875-C628CF300BB2}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2950,12 +2950,12 @@
                       cachedName="First Name"
                       lineageId="Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[First Name]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Conditional Split - Filter out invalid records.Inputs[Conditional Split Input].Columns[Code]"
+                      refId="Package\Data Flow Task\Conditional Split - Filter out invalid records.Inputs[Conditional Split Input].Columns[ID Number]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
-                      cachedName="Code"
-                      lineageId="Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Code]" />
+                      cachedName="ID Number"
+                      lineageId="Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[ID Number]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -2975,13 +2975,13 @@
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
-                      name="Expression">([FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Code]}),"X",1) &gt; 0 &amp;&amp; [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[First Name]})) &gt; 0 &amp;&amp; [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Last Name]})) &gt; 0) || ([LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[First Name]}) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Last Name]}) &gt; 0)</property>
+                      name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[ID Number]})) &gt; 0 &amp;&amp; [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[First Name]})) &gt; 0 &amp;&amp; [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Last Name]})) &gt; 0</property>
                     <property
                       containsID="true"
                       dataType="System.String"
                       description="Specifies the friendly version of the expression. This expression version uses column names."
                       expressionType="Notify"
-                      name="FriendlyExpression">(FINDSTRING(UPPER(Code),"X",1) &gt; 0 &amp;&amp; LEN(TRIM([First Name])) &gt; 0 &amp;&amp; LEN(TRIM([Last Name])) &gt; 0) || (LEN([First Name]) &gt; 0 &amp;&amp; LEN([Last Name]) &gt; 0)</property>
+                      name="FriendlyExpression">LEN(TRIM([ID Number])) &gt; 0 &amp;&amp; LEN(TRIM([First Name])) &gt; 0 &amp;&amp; LEN(TRIM([Last Name])) &gt; 0</property>
                     <property
                       dataType="System.Int32"
                       description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
@@ -3393,13 +3393,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"(",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]}," ",1) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"_",1) &lt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",2) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 1 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",4) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",2) &lt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) ? #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]} : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) == 0 ? [SUBSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},1,[FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) - 1) : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) == 0 ? [SUBSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},1,[FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) - 1) : ""</property>
+                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"(",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]}," ",1) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"_",1) &lt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",2) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 1 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",4) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",2) == 0 || [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",2) &gt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) ? #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]} : "novalidemail@found.com"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],"(",1) == 0 &amp;&amp; FINDSTRING([Email address]," ",1) == 0 &amp;&amp; (FINDSTRING([Email address],"_",1) &lt; FINDSTRING([Email address],"@",1)) &amp;&amp; FINDSTRING([Email address],",",1) == 0 &amp;&amp; FINDSTRING([Email address],";",1) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],"@",2) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 1 &amp;&amp; FINDSTRING([Email address],".",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],".",4) == 0 &amp;&amp; (FINDSTRING([Email address],".",2) &lt; FINDSTRING([Email address],"@",1)) ? [Email address] : LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],",",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],";",1) == 0 ? SUBSTRING([Email address],1,FINDSTRING([Email address],",",1) - 1) : LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],";",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],",",1) == 0 ? SUBSTRING([Email address],1,FINDSTRING([Email address],";",1) - 1) : ""</property>
+                          name="FriendlyExpression">LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],"(",1) == 0 &amp;&amp; FINDSTRING([Email address]," ",1) == 0 &amp;&amp; (FINDSTRING([Email address],"_",1) &lt; FINDSTRING([Email address],"@",1)) &amp;&amp; FINDSTRING([Email address],",",1) == 0 &amp;&amp; FINDSTRING([Email address],";",1) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],"@",2) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 1 &amp;&amp; FINDSTRING([Email address],".",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],".",4) == 0 &amp;&amp; (FINDSTRING([Email address],".",2) == 0 || FINDSTRING([Email address],".",2) &gt; FINDSTRING([Email address],"@",1)) ? [Email address] : "novalidemail@found.com"</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -3432,13 +3432,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]}</property>
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "30" || #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "40" ? "aubomend Bob &amp; Patty Mendelsohn" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "31" ? "aumaland Mark &amp; Rahel Landrum" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "33" ? "audabric David Brickner" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "51" ? "austpach Stephen &amp; Deborah Pacht" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "136" ? "aujupasc Julia Pascoe" : #{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Missionary Code]} == "390" ? "aubygsyd BYG Sydney" : "augeevan AU General Evangelism"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">[Missionary Code]</property>
+                          name="FriendlyExpression">[Missionary Code] == "30" || [Missionary Code] == "40" ? "aubomend Bob &amp; Patty Mendelsohn" : [Missionary Code] == "31" ? "aumaland Mark &amp; Rahel Landrum" : [Missionary Code] == "33" ? "audabric David Brickner" : [Missionary Code] == "51" ? "austpach Stephen &amp; Deborah Pacht" : [Missionary Code] == "136" ? "aujupasc Julia Pascoe" : [Missionary Code] == "390" ? "aubygsyd BYG Sydney" : "augeevan AU General Evangelism"</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -4048,13 +4048,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &lt; 9 ? "Home" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &lt; 9 ? "Cell" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &lt; 9 ? "Work" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &lt; 9 ? "Fax" : ""</property>
+                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &lt; 9 ? "Home" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &lt; 9 ? "Cell" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &lt; 9 ? "Work" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &gt; 1 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &lt; 9 ? "Fax" : ""</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &lt; 9 ? "Home" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &lt; 9 ? "Cell" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &lt; 9 ? "Work" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &lt; 9 ? "Fax" : ""</property>
+                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &lt; 9 ? "Home" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &lt; 9 ? "Cell" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &lt; 9 ? "Work" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),13,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &gt; 1 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &lt; 9 ? "Fax" : ""</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4117,13 +4117,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 ? "Australia" : ""</property>
+                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 6 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),13,13)) &gt; 0 ? "Australia" : ""</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 ? "Australia" : ""</property>
+                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 6 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),13,13)) &gt; 0 ? "Australia" : ""</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4185,13 +4185,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &gt; 8 ? "Home" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &gt; 8 ? "Cell" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &gt; 8 ? "Work" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &gt; 8 ? "Fax" : ""</property>
+                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"HOME",1) &gt; 8 ? "Home" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"MOBILE",1) &gt; 8 ? "Cell" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"WORK",1) &gt; 8 ? "Work" : [LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; [FINDSTRING]([UPPER](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}),"FAX",1) &gt; 8 ? "Fax" : ""</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &gt; 8 ? "Home" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &gt; 8 ? "Cell" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &gt; 8 ? "Work" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &gt; 8 ? "Fax" : ""</property>
+                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"HOME",1) &gt; 8 ? "Home" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"MOBILE",1) &gt; 8 ? "Cell" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"WORK",1) &gt; 8 ? "Work" : LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),26,13)) &gt; 0 &amp;&amp; FINDSTRING(UPPER([Phone Type]),"FAX",1) &gt; 8 ? "Fax" : ""</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4276,13 +4276,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 ? "Australia" : ""</property>
+                          name="Expression">[LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]})) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Type]}) &gt; 12 &amp;&amp; [LEN]([SUBSTRING]([TRIM]([REPLACE]([REPLACE](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Phone Number]},","," "),"\""," ")),26,13)) &gt; 0 ? "Australia" : ""</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 ? "Australia" : ""</property>
+                          name="FriendlyExpression">LEN(TRIM([Phone Number])) &gt; 0 &amp;&amp; LEN([Phone Type]) &gt; 12 &amp;&amp; LEN(SUBSTRING(TRIM(REPLACE(REPLACE([Phone Number],","," "),"\""," ")),26,13)) &gt; 0 ? "Australia" : ""</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -4322,13 +4322,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">([LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"(",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]}," ",1) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"_",1) &lt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",2) == 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1) &gt; 1 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",4) == 0 &amp;&amp; ([FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},".",2) &lt; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},"@",1)) || ([LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) == 0)) || ([LEN]([TRIM](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]})) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},";",1) &gt; 0 &amp;&amp; [FINDSTRING](#{Package\Data Flow Task\Flat File Source - Constituents.Outputs[Flat File Source Output].Columns[Email]},",",1) == 0) ? "General E-mail" : ""</property>
+                          name="Expression">"General E-mail"</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],"(",1) == 0 &amp;&amp; FINDSTRING([Email address]," ",1) == 0 &amp;&amp; (FINDSTRING([Email address],"_",1) &lt; FINDSTRING([Email address],"@",1)) &amp;&amp; FINDSTRING([Email address],",",1) == 0 &amp;&amp; FINDSTRING([Email address],";",1) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],"@",2) == 0 &amp;&amp; FINDSTRING([Email address],"@",1) &gt; 1 &amp;&amp; FINDSTRING([Email address],".",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],".",4) == 0 &amp;&amp; (FINDSTRING([Email address],".",2) &lt; FINDSTRING([Email address],"@",1)) || (LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],",",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],";",1) == 0)) || (LEN(TRIM([Email address])) &gt; 0 &amp;&amp; FINDSTRING([Email address],";",1) &gt; 0 &amp;&amp; FINDSTRING([Email address],",",1) == 0) ? "General E-mail" : ""</property>
+                          name="FriendlyExpression">"General E-mail"</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -5999,6 +5999,20 @@
                       cachedName="Email Type"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination - Australia Constituents.Inputs[Flat File Destination Input].ExternalColumns[Email Type]"
                       lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Email Type]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination - Australia Constituents.Inputs[Flat File Destination Input].Columns[Lookup ID 1]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Lookup ID 1"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination - Australia Constituents.Inputs[Flat File Destination Input].ExternalColumns[Lookup ID 1]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Lookup ID 1]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination - Australia Constituents.Inputs[Flat File Destination Input].Columns[Type 1]"
+                      cachedDataType="wstr"
+                      cachedLength="13"
+                      cachedName="Type 1"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination - Australia Constituents.Inputs[Flat File Destination Input].ExternalColumns[Type 1]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Type 1]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
