@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="170"
-  DTS:VersionGUID="{484E00F6-8229-471C-9B06-306097587484}">
+  DTS:VersionBuild="174"
+  DTS:VersionGUID="{F3C03D71-CAE4-4C17-A94A-766B91F7AC5C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1162,7 +1162,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - ID Number"
-              DTS:DTSID="{BCFA2A5E-A19A-4770-A9BA-4C69753876D5}"
+              DTS:DTSID="{F0E87024-002D-4581-B0E0-3B2B9D1A81C4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1171,7 +1171,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Name"
-              DTS:DTSID="{CE548101-A476-4326-9B27-8A8B58C983B0}"
+              DTS:DTSID="{68631ABE-E689-4B16-B975-E547934FC921}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1180,7 +1180,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - Source Code"
-              DTS:DTSID="{F4D2EE26-E5EB-4656-9B84-01D40D51A765}"
+              DTS:DTSID="{945D3A1E-7646-4AE6-831B-D9D796A2849D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1189,7 +1189,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - City-State-Zip"
-              DTS:DTSID="{91EEC712-9622-4FFF-A299-226FD42AA0EA}"
+              DTS:DTSID="{706E88FD-F76F-4310-A487-9DB26FE2AAEE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1198,7 +1198,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - Full Name"
-              DTS:DTSID="{F1ACAE0D-E028-45FB-8078-D4932F424EB0}"
+              DTS:DTSID="{46E6A066-24BC-4DCE-9E5D-3194AC8C1496}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1207,7 +1207,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - This gift"
-              DTS:DTSID="{316773CD-9BDC-4B6B-8558-F9F67ADD91CE}"
+              DTS:DTSID="{F5E49097-6094-4866-A0FD-1499CEDEFB1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1216,7 +1216,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Last Donation"
-              DTS:DTSID="{C1F4E743-5594-4E29-B3EB-34FAD76F7F40}"
+              DTS:DTSID="{60024931-A62B-4AF2-90FA-87F2668EBD07}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1225,7 +1225,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON -This gift date"
-              DTS:DTSID="{183592EE-D6E0-4064-B9C7-7BF05A9179B9}"
+              DTS:DTSID="{29231D61-2E9E-4048-ABF8-7FE84F52654C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1234,7 +1234,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Total Gifts"
-              DTS:DTSID="{8B94F0CA-FB86-49F4-A6B8-08F8231070EE}"
+              DTS:DTSID="{63202449-8EC7-4EE4-9B1A-1566CCF5475D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1243,7 +1243,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Code"
-              DTS:DTSID="{0471BA92-0A92-4CD0-99DD-FF08DF0FC7A4}"
+              DTS:DTSID="{D885AC6A-E2EC-47EC-8307-1A7E7F94A0BB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1252,7 +1252,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Lookup ID"
-              DTS:DTSID="{60E16E06-B8F1-40C4-86B7-F97EB21E9991}"
+              DTS:DTSID="{27CD99F0-249F-49BD-9E89-5AB1DB68B23B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1261,7 +1261,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="AUSDON - Source Database"
-              DTS:DTSID="{6C15C9E1-D453-4386-B44B-90B285F32E77}"
+              DTS:DTSID="{BCDF6FA0-2EC4-4052-825E-2A3AAE4FA49B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1270,7 +1270,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Account System"
-              DTS:DTSID="{6A532F8C-A15B-4640-A1D8-C4B33A30C156}"
+              DTS:DTSID="{F672BB6D-9D5C-41DE-8B3A-660C5FA6FACB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1279,7 +1279,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="GL post status"
-              DTS:DTSID="{74EAD1F3-57D4-4A61-A7D3-6DA5D9DF195A}"
+              DTS:DTSID="{06AFC14A-ABE9-4F70-8916-894C19C210D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1288,7 +1288,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Payment Method"
-              DTS:DTSID="{3FEC00F7-2E6C-451E-8381-9DEE63EEA1E0}"
+              DTS:DTSID="{8442EA77-A339-4F9F-972D-EEA91386E11F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1297,7 +1297,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Revenue Type"
-              DTS:DTSID="{047AA8FD-324A-43A7-82B8-759622086EB2}"
+              DTS:DTSID="{978235DD-BD40-45A4-968F-A06305D7889D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1306,7 +1306,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Amount"
-              DTS:DTSID="{CDD66693-B8F8-4143-90A4-7C581C06CB1F}"
+              DTS:DTSID="{098104D5-BCD7-4F55-94B2-FA02BC676437}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1315,7 +1315,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Revenue category"
-              DTS:DTSID="{71615007-04CA-4101-9387-EB31509798CC}"
+              DTS:DTSID="{54A15E82-20EA-4C2A-AB56-6FD04A3823A4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1324,7 +1324,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="GL post date"
-              DTS:DTSID="{E49F7936-C9CF-4008-844D-F0D7B05B558F}"
+              DTS:DTSID="{7BB123B5-3672-4653-BF6B-C5BD27B0C9AA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1333,7 +1333,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Date"
-              DTS:DTSID="{803E0ECE-A8DF-4C74-9842-E694393AD68C}"
+              DTS:DTSID="{CD5961D5-C54B-4592-B77A-0F870DBCD37F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1342,7 +1342,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Acknowledge Date"
-              DTS:DTSID="{72901038-CCB0-4E54-95BF-2F17878C918B}"
+              DTS:DTSID="{238CF376-8427-47FF-B054-D0E2E6ED60D4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1351,7 +1351,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Designation"
-              DTS:DTSID="{014DB7BB-B28C-44E8-97C7-71D3C8267D1A}"
+              DTS:DTSID="{AEE70987-8712-43E2-AB27-A56D7183C2B3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1360,7 +1360,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Appeal"
-              DTS:DTSID="{FD4B5D73-8754-4B15-B4D3-3AEDC0DC22B8}"
+              DTS:DTSID="{10DD1E91-11F8-4C37-B860-45F7F227F875}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1369,7 +1369,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Do not receipt"
-              DTS:DTSID="{252F1490-FE7A-4504-8A3B-5CEBFE0DFA70}"
+              DTS:DTSID="{253F7A2B-F63C-404D-AB7F-08C9BBE31339}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1378,7 +1378,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Do not acknowledge"
-              DTS:DTSID="{513C5168-20D1-41BC-8991-D4001CB98C6A}"
+              DTS:DTSID="{F29D9097-2933-4E27-8859-203BAE36BBC8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1387,16 +1387,25 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Application"
-              DTS:DTSID="{A8D28ABA-9451-40EC-9621-1F69CBE01E90}"
+              DTS:DTSID="{A2736476-16F4-4CFF-BDD3-5F2D87D6B700}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:ColumnDelimiter="_x002C_"
               DTS:MaximumWidth="18"
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Transacton currency"
-              DTS:DTSID="{5933D38F-C6FD-49C1-B4A6-69752BA3B2BA}"
+              DTS:DTSID="{A611D19A-649A-4654-8F22-C717F08564A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Lookup ID 1"
+              DTS:DTSID="{8D10F96F-9253-41D0-9CE6-3F9A5CBB3048}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1510,6 +1519,16 @@
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[RM-ZAMALD-L7480.ZalTest]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{142BD019-9FC7-4989-A8C8-7CA40A742985}"
+      DTS:ObjectName="RM-ZAMALD-L7480.ZalTest">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=RM-ZAMALD-L7480;Initial Catalog=ZalTest;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -2627,6 +2646,14 @@
                       cachedName="Code"
                       externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Code]"
                       lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Code]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Lookup ID 1]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Lookup ID 1"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Lookup ID 1]"
+                      lineageId="Package\Data Flow Task\Lookup.Outputs[Lookup Match Output].Columns[Lookup ID 1]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2775,6 +2802,12 @@
                       dataType="str"
                       length="50"
                       name="Code" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Lookup ID 1]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Lookup ID 1" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -3125,6 +3158,168 @@
                 </output>
               </outputs>
             </component>
+            <component
+              refId="Package\Data Flow Task\Lookup"
+              componentClassID="Microsoft.Lookup"
+              contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
+              description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
+              name="Lookup"
+              usesDispositions="true"
+              version="6">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the SQL statement that generates the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from [dbo].[Australia Alt Lookup IDs]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a SQL statement that uses parameters to generate the lookup table."
+                  expressionType="Notify"
+                  name="SqlCommandParam"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[Australia Alt Lookup IDs]) [refTable]
+where [refTable].[Alt Lookup ID] = ?</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the type of connection used to access the reference dataset."
+                  name="ConnectionType"
+                  typeConverter="LookupConnectionType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the cache type of the lookup table."
+                  name="CacheType"
+                  typeConverter="CacheType">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies how the Lookup transformation handles rows without matching entries in the reference data set."
+                  name="NoMatchBehavior"
+                  typeConverter="LookupNoMatchBehavior">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the percentage of the cache that is allocated for rows with no matching entries in the reference dataset."
+                  name="NoMatchCachePercentage">0</property>
+                <property
+                  dataType="System.Int32"
+                  description="Maximum Memory Usage for Reference Cache on a 32 bit platform."
+                  name="MaxMemoryUsage">25</property>
+                <property
+                  dataType="System.Int64"
+                  description="Maximum Memory Usage for Reference Cache on a 64 bit platform."
+                  name="MaxMemoryUsage64">25</property>
+                <property
+                  dataType="System.String"
+                  description="Indicates whether to reference metadata in an XML format."
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="First name" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Last Organization Group Household name" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Lookup ID" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;referenceColumn name="Alt Lookup ID" dataType="DT_STR" length="50" precision="0" scale="0" codePage="1252"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                <property
+                  containsID="true"
+                  dataType="System.String"
+                  description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
+                  name="ParameterMap">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]};</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Determines whether duplicate keys in the reference data should be treated as errors when full cache mode is used."
+                  name="TreatDuplicateKeysAsError">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Lookup.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[RM-ZAMALD-L7480.ZalTest]"
+                  connectionManagerRefId="Package.ConnectionManagers[RM-ZAMALD-L7480.ZalTest]"
+                  description="Connection manager used to access lookup data."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Lookup.Inputs[Lookup Input]"
+                  name="Lookup Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Lookup.Inputs[Lookup Input].Columns[ID Number]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID Number"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table that a column joins."
+                          name="JoinToReferenceColumn">Alt Lookup ID</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Lookup.Outputs[Lookup Match Output]"
+                  errorOrTruncationOperation="Lookup"
+                  errorRowDisposition="IgnoreFailure"
+                  exclusionGroup="1"
+                  name="Lookup Match Output"
+                  synchronousInputId="Package\Data Flow Task\Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Lookup.Outputs[Lookup Match Output].Columns[Lookup ID 1]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Copy Column"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Lookup.Outputs[Lookup Match Output].Columns[Lookup ID 1]"
+                      name="Lookup ID 1"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the column in the reference table from which a column is copied."
+                          name="CopyFromReferenceColumn">Lookup ID</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Lookup.Outputs[Lookup No Match Output]"
+                  description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
+                  exclusionGroup="1"
+                  name="Lookup No Match Output"
+                  synchronousInputId="Package\Data Flow Task\Lookup.Inputs[Lookup Input]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Lookup.Outputs[Lookup Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Lookup Error Output"
+                  synchronousInputId="Package\Data Flow Task\Lookup.Inputs[Lookup Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Lookup.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Lookup.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
           </components>
           <paths>
             <path
@@ -3139,7 +3334,7 @@
               startId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Default Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input]"
+              endId="Package\Data Flow Task\Lookup.Inputs[Lookup Input]"
               name="Derived Column Output"
               startId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]" />
             <path
@@ -3147,6 +3342,11 @@
               endId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
               name="Flat File Source Output"
               startId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Lookup Match Output]"
+              endId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input]"
+              name="Lookup Match Output"
+              startId="Package\Data Flow Task\Lookup.Outputs[Lookup Match Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -3177,6 +3377,18 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="154,42"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="116,213" />
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Data Flow Task\Flat File Destination 1"
+          TopLeft="121,294" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Data Flow Task\Flat File Destination"
+          TopLeft="413,144" />
+        <NodeLayout
           Size="202,42"
           Id="Package\Data Flow Task\Flat File Source - Revenue"
           TopLeft="92,39" />
@@ -3184,32 +3396,6 @@
           Size="155,42"
           Id="Package\Data Flow Task\Conditional Split"
           TopLeft="115,134" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="192.75,81">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,53"
-              Start="0,0"
-              End="0,45.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,45.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="172,42"
-          Id="Package\Data Flow Task\Flat File Destination"
-          TopLeft="413,144" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Conditional Split Default Output]"
           TopLeft="270,155">
@@ -3246,10 +3432,6 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="154,42"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="116,213" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Case 1]"
           TopLeft="192.75,176">
@@ -3274,36 +3456,20 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="181,42"
-          Id="Package\Data Flow Task\Flat File Destination 1"
-          TopLeft="121,294" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="193,255">
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="192.75,81">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="18.5,39"
+              EndConnector="0,53"
               Start="0,0"
-              End="18.5,31.5">
+              End="0,45.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.5"
-                    Point2="0,19.5"
-                    Point3="4,19.5" />
-                  <mssgle:LineSegment
-                    End="14.5,19.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="14.5,19.5"
-                    Point2="18.5,19.5"
-                    Point3="18.5,23.5" />
-                  <mssgle:LineSegment
-                    End="18.5,31.5" />
+                    End="0,45.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -3312,8 +3478,105 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="113,42"
+          Id="Package\Data Flow Task\Lookup"
+          TopLeft="425,255" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="270,234">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="155,42"
+              Start="0,0"
+              End="147.5,42">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="73.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="73.5,0"
+                    Point2="77.5,0"
+                    Point3="77.5,4" />
+                  <mssgle:LineSegment
+                    End="77.5,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="77.5,38"
+                    Point2="77.5,42"
+                    Point3="81.5,42" />
+                  <mssgle:LineSegment
+                    End="147.5,42" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Lookup Match Output]"
+          TopLeft="425,281.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-123,33.3333333333333"
+              Start="0,0"
+              End="-115.5,33.3333333333333">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-47.9082568807339,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-47.9082568807339,0"
+                    Point2="-51.9082568807339,0"
+                    Point3="-51.9082568807339,4" />
+                  <mssgle:LineSegment
+                    End="-51.9082568807339,29.3333333333333" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-51.9082568807339,29.3333333333333"
+                    Point2="-51.9082568807339,33.3333333333333"
+                    Point3="-55.9082568807339,33.3333333333333" />
+                  <mssgle:LineSegment
+                    End="-115.5,33.3333333333333" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-100.099643599484,-17.609375,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[Australia Alt Lookup IDs]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
