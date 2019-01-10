@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS Australia Constituents", "SSIS Australia Constituents\SSIS Australia Constituents.dtproj", "{E2A94ECA-5A0B-424B-B0EC-25B9B29437A0}"
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSIS Australia Revenue", "SSIS Australia Revenue\SSIS Australia Revenue.dtproj", "{E525710E-01E5-44BA-A4B9-5EB8577F54D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E2A94ECA-5A0B-424B-B0EC-25B9B29437A0}.Development|Default.ActiveCfg = Development
-		{E2A94ECA-5A0B-424B-B0EC-25B9B29437A0}.Development|Default.Build.0 = Development
+		{E525710E-01E5-44BA-A4B9-5EB8577F54D0}.Development|Default.ActiveCfg = Development
+		{E525710E-01E5-44BA-A4B9-5EB8577F54D0}.Development|Default.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

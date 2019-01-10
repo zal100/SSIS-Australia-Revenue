@@ -1,0 +1,3319 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/31/2018 3:31:56 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="RM-ZAMALD-L7480"
+  DTS:CreatorName="JFJ\zamald"
+  DTS:DTSID="{FB3FD5E3-A0CB-4E70-A332-333D467E7F34}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.3008.28"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="170"
+  DTS:VersionGUID="{484E00F6-8229-471C-9B06-306097587484}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Churches]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Churches"
+      DTS:DTSID="{7DD1981E-3C74-4288-81F5-D0B4C92DA2F4}"
+      DTS:ObjectName="Churches">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Australia\Churches.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID Number"
+              DTS:DTSID="{B3CDD79C-27A5-4979-9079-AADE0D24B16E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{6A90BB77-48B9-4CB0-9B9C-BF2EE6692B07}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Name"
+              DTS:DTSID="{137DD9E1-A221-410A-A7C3-668C30405275}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Middle Name"
+              DTS:DTSID="{186C457F-D7AA-453E-8560-DE171CC79DA7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Personal Title"
+              DTS:DTSID="{3732FA46-98D9-4FB4-BC23-C69650035A6C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Phone Number"
+              DTS:DTSID="{08957CD4-6CFB-4409-8027-C85E2B6B7E0A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Phone Type"
+              DTS:DTSID="{D552DBE1-2F36-4F34-BEA8-E6599723997E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home Street"
+              DTS:DTSID="{998A0671-E4A0-4116-BD2C-0587E4ADE807}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home State"
+              DTS:DTSID="{A5D88238-AE30-4BF1-BE59-ED7022088B77}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home City"
+              DTS:DTSID="{6B244555-0BC4-415C-8DE8-AA6602137D74}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home Zip Code"
+              DTS:DTSID="{5A031A45-991E-4FED-BD6B-05945E68FCEE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Address Line 2"
+              DTS:DTSID="{C8320960-ADB3-462B-A691-8693B64D5F5B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Code"
+              DTS:DTSID="{3A12906A-70CE-4B3B-8EF6-F4286C76839C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{277D2A84-AA1D-49BB-A4B4-303B6EF41A18}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Marital Status"
+              DTS:DTSID="{8C507838-F8F5-4044-A454-E604C93EE2E8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Birthdate"
+              DTS:DTSID="{379E9CA5-62F9-4E72-8902-3B6752E34D18}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Flag"
+              DTS:DTSID="{2A34F596-817F-457C-843E-436CDB705FD8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Distinctives List"
+              DTS:DTSID="{5F4DA69E-6777-4536-8B71-CA3578095FB9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Mailer Distinctive Codes"
+              DTS:DTSID="{5BBB2B7B-78A4-4E1F-A3EE-8C7FCF9814D1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Mailer Distinctive"
+              DTS:DTSID="{969F9D87-7ED0-4278-9F84-021489EF4FB2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Active Trigger"
+              DTS:DTSID="{5414297F-037F-4104-BA6E-FEA35082E1A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Approximate Age"
+              DTS:DTSID="{5EAE8408-6883-49AC-B365-0DBC5E611B6C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirddogInformation"
+              DTS:DTSID="{9C4F90D7-C46A-4C55-B9F2-EEF44E154B29}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BSB #"
+              DTS:DTSID="{5A542494-720A-48F7-8547-3E5529810321}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Buffer"
+              DTS:DTSID="{7F8D3E8A-EB93-4D37-8D23-079A1EB7E576}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Church"
+              DTS:DTSID="{D6661DD1-B56A-42FA-92D2-A03E068DC429}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Contact ID"
+              DTS:DTSID="{1A74AE72-2F4B-4DEC-992F-A7620BA4E1CD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Country"
+              DTS:DTSID="{5489FD80-2F2B-4425-AAE2-20D6E47C93ED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date Created"
+              DTS:DTSID="{9921AEF6-1CC3-4972-9B35-7F281D0C64AC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Directions"
+              DTS:DTSID="{4BCBA5A4-A130-4771-8B5A-4D89A5EF3BB7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Email"
+              DTS:DTSID="{CCB607D6-7108-46B2-8722-3330DBDE9B4F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Events Attended"
+              DTS:DTSID="{679C9317-AFEF-483F-A85C-B1D77F61A5C2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Field 128"
+              DTS:DTSID="{2A80C1CF-F54E-4359-96DC-FE3D9CDC0B9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Contact Date"
+              DTS:DTSID="{B9E9AFFF-2EE9-4917-8DD6-2BAA5725BCB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Frequency"
+              DTS:DTSID="{97BB69F4-1152-4A60-B69D-8C37A8BFF8D2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Gift Code"
+              DTS:DTSID="{23D7CB0C-8794-4263-B5E8-87B8F8301275}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Receipt Date"
+              DTS:DTSID="{1EA6C774-7B25-4A12-9BEA-6C1C1635B232}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Missionary Code"
+              DTS:DTSID="{89A67C2B-EC17-4FED-A7EE-657D81FAD4C7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Next Contact Date"
+              DTS:DTSID="{692467A7-5167-4A12-BFA2-B3AD4AE78307}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="No Receipt"
+              DTS:DTSID="{CDDC3F7A-3D02-49A2-8F2E-CF55630A3DFB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4000"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Notes"
+              DTS:DTSID="{3EFFF62C-9FCF-4ECE-9BE6-A5FE83A2E714}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Occupation"
+              DTS:DTSID="{367E1BEC-1B2C-465E-986B-6FC035575AB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pledge"
+              DTS:DTSID="{37D5AB8E-2745-4222-BB2D-ADE9C5FF84EB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Recpt Letter Sent"
+              DTS:DTSID="{9992A37D-76C2-4D4A-BC03-F0A8F6F292DA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sale Amount"
+              DTS:DTSID="{CF79B4EE-AB6C-4530-9E0A-4213E7CDF5C5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salutation"
+              DTS:DTSID="{A3555CBE-E2B7-43E5-AB7C-441677DDA1ED}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="School"
+              DTS:DTSID="{06042DA8-0997-486B-9B6A-C08174D863C9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sent to HQ"
+              DTS:DTSID="{90D274D8-D1AA-4B78-82AD-EA5C1948CC3F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Source Code"
+              DTS:DTSID="{BDC3BAAB-1A32-47CB-9FEB-27A79C2A554D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sum of Personal Gifts"
+              DTS:DTSID="{9D171573-1CA9-4430-8CFB-5410EC36DB56}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Year Believed"
+              DTS:DTSID="{5119F3FE-DD1C-42FE-96B9-81E6E21A212D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Donations with no amount or ID number]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{99AFFFD6-AED8-4F65-8800-1993EE48226B}"
+      DTS:ObjectName="Donations with no amount or ID number">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="Donations with no amount.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID Number"
+              DTS:DTSID="{428C80FC-4B79-4510-95CF-46459F77CA6E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{D174826D-4076-4EAB-A2EA-38F2C0D48C89}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Source Code"
+              DTS:DTSID="{4F93EEF8-BC18-45D2-8E8A-EF80E122C7D5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City_State_Zip"
+              DTS:DTSID="{AF976D21-470D-4124-997C-BF680758C462}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Full Name"
+              DTS:DTSID="{B566C225-D37E-4A6F-A25B-C5875F92DB95}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift"
+              DTS:DTSID="{95F94C38-E8AE-4B10-BDDD-54C7205F562C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Donation"
+              DTS:DTSID="{24D0B50D-DE04-4F48-8FF7-09AF65D57B42}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift date"
+              DTS:DTSID="{017A7AAD-C0A7-4524-BCD8-7EB156BEB0EB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Total Gifts"
+              DTS:DTSID="{A3A7D26F-8C4E-44AA-9B58-93E656051E51}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ï»¿Code"
+              DTS:DTSID="{3DE840D8-316C-4909-A413-49F9235CBEF6}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{51E92E96-36EA-4FA4-A045-E914F1F224E2}"
+      DTS:ObjectName="Flat File Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="Donations with No Amount">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID Number"
+              DTS:DTSID="{2621B006-989B-4C24-A90F-253D64C2C38F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{0F6962AF-CCCE-4825-9229-0689A215B7D3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Code"
+              DTS:DTSID="{B1BA0C04-7FEE-41D5-BBB3-27705A7C6973}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Source Code"
+              DTS:DTSID="{C1CF313E-5544-43B2-B2D1-F1C3BA4B8539}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City_State_Zip"
+              DTS:DTSID="{D9EEACE0-FA2F-4434-B247-84BB81C0D8CE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Full Name"
+              DTS:DTSID="{CFBAAEFB-1AC0-4425-A330-9AC7DB944141}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift"
+              DTS:DTSID="{6D98CC9E-C0AA-4B2E-93B9-BFEE89BD4E93}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Donation"
+              DTS:DTSID="{7241EBCB-B07E-49F1-AEB0-74CF7CCAB201}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift date"
+              DTS:DTSID="{4929B5CD-80FD-4A32-9C86-C361F12097C4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Total Gifts"
+              DTS:DTSID="{F21228B4-307B-4EB0-B43E-B398A7979EDD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Name"
+              DTS:DTSID="{06411AF2-6B7F-4156-AC8A-A5591C948A6D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Middle Name"
+              DTS:DTSID="{1198404B-1D85-4535-95AC-6930D3AD36E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Personal Title"
+              DTS:DTSID="{4C6DA705-5F8C-47F4-9623-FB5C8B70BF26}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Phone Number"
+              DTS:DTSID="{F28B0B03-D559-42B4-B094-63F4CE85A0B1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Phone Type"
+              DTS:DTSID="{58D904E2-5A9F-442F-91C0-0A985E5D2C04}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home Street"
+              DTS:DTSID="{60BACBD2-71F8-461F-BA0C-90FA94832475}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home State"
+              DTS:DTSID="{589386B0-89A9-45BF-AC2C-A4A1B7EB2E42}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home City"
+              DTS:DTSID="{3A181926-D6C4-4EED-A706-AD4A330108AA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Home Zip Code"
+              DTS:DTSID="{5C7EE667-8522-4F27-8149-6759B9C4986A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Address Line 2"
+              DTS:DTSID="{AFF5663C-77ED-4135-A2DC-48E26BEB04EA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Gender"
+              DTS:DTSID="{44E8142A-ADA4-482E-9EF5-1FCD04E3D707}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Marital Status"
+              DTS:DTSID="{C05E5729-7134-4E6E-9442-028257A976BF}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Birthdate"
+              DTS:DTSID="{4B3C3E9A-5E74-4023-B16B-0C4BC6C1420A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Active Trigger"
+              DTS:DTSID="{A9CB1B73-6F24-4B3A-ABE1-F2BCFE09A6BC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Approximate Age"
+              DTS:DTSID="{E4D7C7FD-F029-437E-864C-A6ED1825BDD7}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BirddogInformation"
+              DTS:DTSID="{7C2BB37F-6CE0-4B34-B36E-E958788942DB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="BSB #"
+              DTS:DTSID="{7FBF70AE-1281-47B1-AC70-8D96F43FDAD4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Buffer"
+              DTS:DTSID="{3229EFA1-8576-42DD-9021-EA372B23A713}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Church"
+              DTS:DTSID="{D98480D4-C704-47C4-A9FD-EE38CA5E300A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Contact ID"
+              DTS:DTSID="{19072312-CD1A-4E24-A006-1D629628AE7B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Country"
+              DTS:DTSID="{8C2A0773-D4E0-4E18-A1F5-154E33A13582}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date Created"
+              DTS:DTSID="{DDE602BC-7214-4F79-A071-2BE105BE8D46}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Directions"
+              DTS:DTSID="{3D6BCF1D-E91C-4568-8802-A0D88ED67037}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Email"
+              DTS:DTSID="{95CBB33B-D601-46D3-93EB-5B4A812F7F8C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Events Attended"
+              DTS:DTSID="{EFB0945A-5535-49E5-AA35-329E0DC8367A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Field 128"
+              DTS:DTSID="{13BB372C-FE82-49D5-BF96-AA01295DF86A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="First Contact Date"
+              DTS:DTSID="{1ECB729A-8E4B-449D-B95F-A0CFFCD5F2B6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Frequency"
+              DTS:DTSID="{759008F5-83F8-4E75-9D63-69E73AD47FB4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Gift Code"
+              DTS:DTSID="{D08E4B38-A0DE-4DD5-8E7D-323A959FC910}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Receipt Date"
+              DTS:DTSID="{CAAA0210-CC53-4B10-A5F7-5498049F4587}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Missionary Code"
+              DTS:DTSID="{CE3C9E90-0F99-4171-9E3A-D0F401CB347F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Next Contact Date"
+              DTS:DTSID="{6B18F72A-BA07-442E-9CB7-6B33F9B425D9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="No Receipt"
+              DTS:DTSID="{7C9F1354-E4A7-4792-80DA-5EE3AAFA63D1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="4000"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Notes"
+              DTS:DTSID="{9D507EC4-EA44-4D4A-9BE8-F690B660DF09}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Occupation"
+              DTS:DTSID="{5EA2ADEC-043C-4A20-9FAF-58DF29F9A905}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Pledge"
+              DTS:DTSID="{6208A554-448D-4257-96F0-E2E869F67C76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Recpt Letter Sent"
+              DTS:DTSID="{A8D9A2FD-0824-4870-BA9E-D6DF3621A032}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sale Amount"
+              DTS:DTSID="{9ED21D26-CD21-4538-9DDA-C26B083C4BCB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Salutation"
+              DTS:DTSID="{62B938D4-D99A-4A13-B26A-CDF312D2DD87}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="School"
+              DTS:DTSID="{FB5399DF-42C7-4871-BE39-E9776D9C74FD}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sent to HQ"
+              DTS:DTSID="{1F5657DA-979F-4078-90A7-11B2743B9131}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sum of Personal Gifts"
+              DTS:DTSID="{993EB024-917D-4AC4-83E1-D3914CAF6016}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Year Believed"
+              DTS:DTSID="{0E91CCAC-F1BF-49AF-AE70-5C786B1FEA6B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="500"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Flag"
+              DTS:DTSID="{AD8E848B-9829-4F89-B56E-ECE994857473}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Distinctives List"
+              DTS:DTSID="{64F9B643-ACA5-44BB-BED9-728B2DEB3A84}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Mailer Distinctive Codes"
+              DTS:DTSID="{0236D6C9-D125-45CF-B494-1BF09762D14B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Mailer Distinctive"
+              DTS:DTSID="{94AC5797-5BC4-4A75-AD78-5DD299BE525C}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager  - Australia Revenue]"
+      DTS:CreationName="FLATFILE"
+      DTS:Description="Australia Revenue"
+      DTS:DTSID="{5ECA4BC1-12A5-4F6E-8651-A7B1DD8D9732}"
+      DTS:ObjectName="Flat File Connection Manager  - Australia Revenue">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Australia\Australia Revenue.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - ID Number"
+              DTS:DTSID="{BCFA2A5E-A19A-4770-A9BA-4C69753876D5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{CE548101-A476-4326-9B27-8A8B58C983B0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - Source Code"
+              DTS:DTSID="{F4D2EE26-E5EB-4656-9B84-01D40D51A765}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - City-State-Zip"
+              DTS:DTSID="{91EEC712-9622-4FFF-A299-226FD42AA0EA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - Full Name"
+              DTS:DTSID="{F1ACAE0D-E028-45FB-8078-D4932F424EB0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - This gift"
+              DTS:DTSID="{316773CD-9BDC-4B6B-8558-F9F67ADD91CE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Donation"
+              DTS:DTSID="{C1F4E743-5594-4E29-B3EB-34FAD76F7F40}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON -This gift date"
+              DTS:DTSID="{183592EE-D6E0-4064-B9C7-7BF05A9179B9}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Total Gifts"
+              DTS:DTSID="{8B94F0CA-FB86-49F4-A6B8-08F8231070EE}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Code"
+              DTS:DTSID="{0471BA92-0A92-4CD0-99DD-FF08DF0FC7A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Lookup ID"
+              DTS:DTSID="{60E16E06-B8F1-40C4-86B7-F97EB21E9991}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="27"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="AUSDON - Source Database"
+              DTS:DTSID="{6C15C9E1-D453-4386-B44B-90B285F32E77}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="24"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Account System"
+              DTS:DTSID="{6A532F8C-A15B-4640-A1D8-C4B33A30C156}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="11"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="GL post status"
+              DTS:DTSID="{74EAD1F3-57D4-4A61-A7D3-6DA5D9DF195A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="5"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Payment Method"
+              DTS:DTSID="{3FEC00F7-2E6C-451E-8381-9DEE63EEA1E0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Revenue Type"
+              DTS:DTSID="{047AA8FD-324A-43A7-82B8-759622086EB2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Amount"
+              DTS:DTSID="{CDD66693-B8F8-4143-90A4-7C581C06CB1F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="11"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Revenue category"
+              DTS:DTSID="{71615007-04CA-4101-9387-EB31509798CC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="GL post date"
+              DTS:DTSID="{E49F7936-C9CF-4008-844D-F0D7B05B558F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Date"
+              DTS:DTSID="{803E0ECE-A8DF-4C74-9842-E694393AD68C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Acknowledge Date"
+              DTS:DTSID="{72901038-CCB0-4E54-95BF-2F17878C918B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="7"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Designation"
+              DTS:DTSID="{014DB7BB-B28C-44E8-97C7-71D3C8267D1A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="6"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Appeal"
+              DTS:DTSID="{FD4B5D73-8754-4B15-B4D3-3AEDC0DC22B8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Do not receipt"
+              DTS:DTSID="{252F1490-FE7A-4504-8A3B-5CEBFE0DFA70}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="1"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Do not acknowledge"
+              DTS:DTSID="{513C5168-20D1-41BC-8991-D4001CB98C6A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="8"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Application"
+              DTS:DTSID="{A8D28ABA-9451-40EC-9621-1F69CBE01E90}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="18"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Transacton currency"
+              DTS:DTSID="{5933D38F-C6FD-49C1-B4A6-69752BA3B2BA}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Flat File Connection Manager - Donations]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{C62712C3-6084-4A26-A635-28A7FF28299E}"
+      DTS:ObjectName="Flat File Connection Manager - Donations">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="1033"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x0022_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Australia\DonationsExport.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Code"
+              DTS:DTSID="{0045B424-8E4F-4511-ACB7-09AB727278A0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="City_State_Zip"
+              DTS:DTSID="{D1D8C91D-2197-4897-9EE2-67361FE1A405}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Full Name"
+              DTS:DTSID="{9355C0DC-18EF-48E5-AF57-1AAA7B473D38}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ID Number"
+              DTS:DTSID="{DED96153-953B-4854-AB46-8BAE752EC8A6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Donation"
+              DTS:DTSID="{B70BAB30-A171-4D8E-97B7-AD81415D97E5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Last Name"
+              DTS:DTSID="{0E7F4492-562F-49EB-86C3-1D561F3B72A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Source Code"
+              DTS:DTSID="{60F2A39E-4ECF-497F-8809-1478396B0468}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift"
+              DTS:DTSID="{A440347C-EF76-4D9C-99BA-369A68A24F26}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="This gift date"
+              DTS:DTSID="{74B1085E-9EE8-4501-B6B6-F0645044200A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Total Gifts"
+              DTS:DTSID="{EE2FFC58-98CD-4808-87B4-6DCA05B4F743}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Data Flow Task"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{9720DA9A-997C-441F-B428-823BB91BCE36}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Data Flow Task"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Data Flow Task\Conditional Split"
+              componentClassID="Microsoft.ConditionalSplit"
+              contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+              name="Conditional Split"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+                  description="Input to the Conditional Split Transformation"
+                  name="Conditional Split Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input].Columns[This gift]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input].Columns[ID Number]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID Number"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Conditional Split.Outputs[Case 1]"
+                  description="Output 1 of the Conditional Split Transformation"
+                  errorOrTruncationOperation="Computation"
+                  errorRowDisposition="FailComponent"
+                  exclusionGroup="1"
+                  name="Case 1"
+                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+                  truncationRowDisposition="FailComponent">
+                  <properties>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                      name="Expression">[LEN](#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]}) &gt; 0 &amp;&amp; [LEN](#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]}) &gt; 0</property>
+                    <property
+                      containsID="true"
+                      dataType="System.String"
+                      description="Specifies the friendly version of the expression. This expression version uses column names."
+                      expressionType="Notify"
+                      name="FriendlyExpression">LEN([This gift]) &gt; 0 &amp;&amp; LEN([ID Number]) &gt; 0</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                      name="EvaluationOrder">0</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Default Output]"
+                  description="Default Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  name="Conditional Split Default Output"
+                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]">
+                  <properties>
+                    <property
+                      dataType="System.Boolean"
+                      name="IsDefaultOut">true</property>
+                  </properties>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output]"
+                  description="Error Output of the Conditional Split Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Conditional Split Error Output"
+                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Derived Column"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="Derived Column"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON - Full Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Full Name"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]"
+                      name="AUSDON - Full Name"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - Full Name]</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON - ID Number]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID Number"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]"
+                      name="AUSDON - ID Number"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - ID Number]</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON - City-State-Zip]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="City_State_Zip"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]"
+                      name="AUSDON - City-State-Zip"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - City-State-Zip]</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON - Source Code]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Source Code"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]"
+                      name="AUSDON - Source Code"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - Source Code]</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON - This gift]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]"
+                      name="AUSDON - This gift"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - This gift]</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[AUSDON -This gift date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift date"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]"
+                      name="AUSDON -This gift date"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON -This gift date]</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Lookup ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Lookup ID]"
+                      name="Lookup ID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"0"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"0"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[AUSDON - Source Database]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="27"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[AUSDON - Source Database]"
+                      name="AUSDON - Source Database"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Australia FMP received 2018"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Australia FMP received 2018"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Account System]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="24"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Account System]"
+                      name="Account System"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Australia Account System"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Australia Account System"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post status]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="11"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post status]"
+                      name="GL post status"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Do not Post"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Do not Post"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Payment Method]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="5"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Payment Method]"
+                      name="Payment Method"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Check"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Check"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="7"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue Type]"
+                      name="Revenue Type"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Payment"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Payment"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Amount]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Amount]"
+                      name="Amount"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON - This gift]</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue category]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="11"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue category]"
+                      name="Revenue category"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Mail income"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Mail income"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post date]"
+                      name="GL post date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON -This gift date]</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Date]"
+                      name="Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON -This gift date]</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Acknowledge Date]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Acknowledge Date]"
+                      name="Acknowledge Date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">#{Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">[AUSDON -This gift date]</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Designation]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="7"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Designation]"
+                      name="Designation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"DEFAULT"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"DEFAULT"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Appeal]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="6"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Appeal]"
+                      name="Appeal"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"WMMAIL"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"WMMAIL"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not receipt]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not receipt]"
+                      name="Do not receipt"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"1"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"1"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not acknowledge]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not acknowledge]"
+                      name="Do not acknowledge"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"1"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"1"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Application]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="8"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Application]"
+                      name="Application"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Donation"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Donation"</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Transacton currency]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      length="18"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Transacton currency]"
+                      name="Transacton currency"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">"Australian Dollars"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">"Australian Dollars"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Donations with no amount or ID number]"
+                  connectionManagerRefId="Package.ConnectionManagers[Donations with no amount or ID number]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[ID Number]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID Number"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ID Number]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Last Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Last Name"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Last Name]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Name]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Source Code]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Source Code"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Source Code]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[City_State_Zip]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="City_State_Zip"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[City_State_Zip]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Full Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Full Name"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Full Name]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[This gift]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[This gift]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Last Donation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Last Donation"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Last Donation]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Donation]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[This gift date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift date"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[This gift date]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].Columns[Total Gifts]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Total Gifts"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Gifts]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Total Gifts]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ID Number]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Last Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Source Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Source Code" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[City_State_Zip]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="City_State_Zip" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Full Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Full Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[This gift]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="This gift" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Last Donation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Donation" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[This gift date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="This gift date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Total Gifts]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Total Gifts" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ï»¿Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ï»¿Code" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Flat File Destination 1"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Flat File Destination"
+              localeId="1033"
+              name="Flat File Destination 1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Flat File Destination 1.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager  - Australia Revenue]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager  - Australia Revenue]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[ID Number]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ID Number"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - ID Number]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Last Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Last Name"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Last Name]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Name]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Source Code]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Source Code"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Source Code]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[City_State_Zip]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="City_State_Zip"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - City-State-Zip]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Full Name]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Full Name"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Full Name]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[This gift]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - This gift]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Last Donation]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Last Donation"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Last Donation]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Donation]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[This gift date]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="This gift date"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON -This gift date]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Total Gifts]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Total Gifts"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Total Gifts]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Total Gifts]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Lookup ID]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Lookup ID"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Lookup ID]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Lookup ID]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[AUSDON - Source Database]"
+                      cachedDataType="wstr"
+                      cachedLength="27"
+                      cachedName="AUSDON - Source Database"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Source Database]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[AUSDON - Source Database]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Account System]"
+                      cachedDataType="wstr"
+                      cachedLength="24"
+                      cachedName="Account System"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Account System]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Account System]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[GL post status]"
+                      cachedDataType="wstr"
+                      cachedLength="11"
+                      cachedName="GL post status"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[GL post status]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post status]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Payment Method]"
+                      cachedDataType="wstr"
+                      cachedLength="5"
+                      cachedName="Payment Method"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Payment Method]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Payment Method]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Revenue Type]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="Revenue Type"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Revenue Type]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue Type]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Amount]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Amount"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Amount]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Amount]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Revenue category]"
+                      cachedDataType="wstr"
+                      cachedLength="11"
+                      cachedName="Revenue category"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Revenue category]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Revenue category]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[GL post date]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="GL post date"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[GL post date]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[GL post date]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Date]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Date"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Date]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Date]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Acknowledge Date]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Acknowledge Date"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Acknowledge Date]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Acknowledge Date]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Designation]"
+                      cachedDataType="wstr"
+                      cachedLength="7"
+                      cachedName="Designation"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Designation]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Designation]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Appeal]"
+                      cachedDataType="wstr"
+                      cachedLength="6"
+                      cachedName="Appeal"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Appeal]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Appeal]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Do not receipt]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Do not receipt"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Do not receipt]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not receipt]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Do not acknowledge]"
+                      cachedDataType="wstr"
+                      cachedLength="1"
+                      cachedName="Do not acknowledge"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Do not acknowledge]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Do not acknowledge]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Application]"
+                      cachedDataType="wstr"
+                      cachedLength="8"
+                      cachedName="Application"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Application]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Application]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Transacton currency]"
+                      cachedDataType="wstr"
+                      cachedLength="18"
+                      cachedName="Transacton currency"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Transacton currency]"
+                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Transacton currency]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].Columns[Code]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Code"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Code]"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Code]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - ID Number]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON - ID Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Last Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Source Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON - Source Code" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - City-State-Zip]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON - City-State-Zip" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Full Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON - Full Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - This gift]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON - This gift" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Last Donation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Donation" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON -This gift date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="AUSDON -This gift date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Total Gifts]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Total Gifts" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Lookup ID]"
+                      dataType="wstr"
+                      length="1"
+                      name="Lookup ID" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[AUSDON - Source Database]"
+                      dataType="wstr"
+                      length="27"
+                      name="AUSDON - Source Database" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Account System]"
+                      dataType="wstr"
+                      length="24"
+                      name="Account System" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[GL post status]"
+                      dataType="wstr"
+                      length="11"
+                      name="GL post status" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Payment Method]"
+                      dataType="wstr"
+                      length="5"
+                      name="Payment Method" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Revenue Type]"
+                      dataType="wstr"
+                      length="7"
+                      name="Revenue Type" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Amount]"
+                      dataType="wstr"
+                      length="50"
+                      name="Amount" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Revenue category]"
+                      dataType="wstr"
+                      length="11"
+                      name="Revenue category" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[GL post date]"
+                      dataType="wstr"
+                      length="50"
+                      name="GL post date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Date]"
+                      dataType="wstr"
+                      length="50"
+                      name="Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Acknowledge Date]"
+                      dataType="wstr"
+                      length="50"
+                      name="Acknowledge Date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Designation]"
+                      dataType="wstr"
+                      length="7"
+                      name="Designation" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Appeal]"
+                      dataType="wstr"
+                      length="6"
+                      name="Appeal" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Do not receipt]"
+                      dataType="wstr"
+                      length="1"
+                      name="Do not receipt" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Do not acknowledge]"
+                      dataType="wstr"
+                      length="1"
+                      name="Do not acknowledge" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Application]"
+                      dataType="wstr"
+                      length="8"
+                      name="Application" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Transacton currency]"
+                      dataType="wstr"
+                      length="18"
+                      name="Transacton currency" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input].ExternalColumns[Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Code" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Flat File Source - Revenue"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Source"
+              localeId="1033"
+              name="Flat File Source - Revenue"
+              usesDispositions="true"
+              validateExternalMetadata="False"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether zero-length columns are treated as null."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Data Flow Task\Flat File Source - Revenue.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Flat File Connection Manager - Donations]"
+                  connectionManagerRefId="Package.ConnectionManagers[Flat File Connection Manager - Donations]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output]"
+                  name="Flat File Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[ID Number]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[ID Number]"
+                      name="ID Number"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Last Name]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Name]"
+                      name="Last Name"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Source Code]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Source Code]"
+                      name="Source Code"
+                      truncationRowDisposition="IgnoreFailure">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[City_State_Zip]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[City_State_Zip]"
+                      name="City_State_Zip"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Full Name]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Full Name]"
+                      name="Full Name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[This gift]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift]"
+                      name="This gift"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Donation]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Last Donation]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Last Donation]"
+                      name="Last Donation"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[This gift date]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[This gift date]"
+                      name="This gift date"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Total Gifts]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Total Gifts]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Total Gifts]"
+                      name="Total Gifts"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Code]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Code]"
+                      length="50"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].Columns[Code]"
+                      name="Code"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[ID Number]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ID Number" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Last Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Source Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Source Code" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[City_State_Zip]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="City_State_Zip" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Full Name]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Full Name" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[This gift]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="This gift" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Last Donation]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Last Donation" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[This gift date]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="This gift date" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Total Gifts]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Total Gifts" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output].ExternalColumns[Code]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Code" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output]"
+                  isErrorOut="true"
+                  name="Flat File Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Flat File Source Error Output Column"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
+                      name="Flat File Source Error Output Column" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Data Flow Task.Paths[Case 1]"
+              endId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+              name="Case 1"
+              startId="Package\Data Flow Task\Conditional Split.Outputs[Case 1]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Conditional Split Default Output]"
+              endId="Package\Data Flow Task\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Conditional Split Default Output"
+              startId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Default Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Derived Column Output]"
+              endId="Package\Data Flow Task\Flat File Destination 1.Inputs[Flat File Destination Input]"
+              name="Derived Column Output"
+              startId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Flat File Source Output]"
+              endId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+              name="Flat File Source Output"
+              startId="Package\Data Flow Task\Flat File Source - Revenue.Outputs[Flat File Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Data Flow Task"
+          TopLeft="72,47" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Data Flow Task">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="202,42"
+          Id="Package\Data Flow Task\Flat File Source - Revenue"
+          TopLeft="92,39" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\Data Flow Task\Conditional Split"
+          TopLeft="115,134" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="192.75,81">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53"
+              Start="0,0"
+              End="0,45.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,45.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Data Flow Task\Flat File Destination"
+          TopLeft="413,144" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Conditional Split Default Output]"
+          TopLeft="270,155">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="143,10"
+              Start="0,0"
+              End="135.5,10">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="67.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="67.5,0"
+                    Point2="71.5,0"
+                    Point3="71.5,4" />
+                  <mssgle:LineSegment
+                    End="71.5,6" />
+                  <mssgle:CubicBezierSegment
+                    Point1="71.5,6"
+                    Point2="71.5,10"
+                    Point3="75.5,10" />
+                  <mssgle:LineSegment
+                    End="135.5,10" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0.886093749999986,-17.658203125,141.2278125,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="116,213" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Case 1]"
+          TopLeft="192.75,176">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-15.2180859375,9.97314453125,30.436171875,9.5537109375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="181,42"
+          Id="Package\Data Flow Task\Flat File Destination 1"
+          TopLeft="121,294" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="193,255">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="18.5,39"
+              Start="0,0"
+              End="18.5,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.5"
+                    Point2="0,19.5"
+                    Point3="4,19.5" />
+                  <mssgle:LineSegment
+                    End="14.5,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="14.5,19.5"
+                    Point2="18.5,19.5"
+                    Point3="18.5,23.5" />
+                  <mssgle:LineSegment
+                    End="18.5,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
